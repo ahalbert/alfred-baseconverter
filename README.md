@@ -3,15 +3,17 @@
 ====
 
 
-Convert arbitrary bases in Alfred 2 and copy them to the clipboard.
+Convert arbitrary bases(up to base 32) in Alfred 2 and copy them to the clipboard.
 
-Format:
+Format: `{base}x{number} {target base}`
 
-`{base}x{number} {target base}`
+![](https://github.com/ahalbert/alfred-baseconverter/blob/master/screenshots/hex8.png?raw=true)
 
 Push enter to add the result to the clipboard.
 
-if none is specified, it will default to decimal.
+If none is specified, it will default to decimal.
+
+![](https://github.com/ahalbert/alfred-baseconverter/blob/master/screenshots/hex10.png?raw=true)
 
 Special prefixes:
 
@@ -20,7 +22,10 @@ Special prefixes:
 * 0 or O: octal
 * b: binary
 
-These work for the both the normal base and the target base.
+![](https://github.com/ahalbert/alfred-baseconverter/blob/master/screenshots/binary.png?raw=true)
+
+These prefixes work for the both the normal base and the target base.
 
 Written by Armand Halbert
+
 Licensed under BSD.
