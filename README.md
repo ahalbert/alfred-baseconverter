@@ -11,7 +11,7 @@ Format: `{base}x{number} {target base}`
 
 Push enter to add the result to the clipboard.
 
-If none is specified, it will default to decimal.
+If no base is specified, it will default to decimal. If the source number is decimal, hex will be output.
 
 ![](https://github.com/ahalbert/alfred-baseconverter/blob/master/screenshots/hex10.png?raw=true)
 
