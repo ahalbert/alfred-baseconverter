@@ -1,6 +1,6 @@
-Metadata-Version: 2.0
+Metadata-Version: 2.1
 Name: Alfred-Workflow
-Version: 1.27
+Version: 1.36
 Summary: Full-featured helper library for writing Alfred 2/3 workflows
 Home-page: http://www.deanishe.net/alfred-workflow/
 Author: Dean Jackson
@@ -13,10 +13,10 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: MacOS :: MacOS X
 Classifier: Intended Audience :: Developers
 Classifier: Natural Language :: English
-Classifier: Programming Language :: Python :: 2.6
 Classifier: Programming Language :: Python :: 2.7
 Classifier: Topic :: Software Development :: Libraries
 Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+
 
 A helper library for writing `Alfred 2 and 3`_ workflows.
 
@@ -121,11 +121,11 @@ You can install any other library available on the `Cheese Shop`_ the
 same way. See the `pip documentation`_ for more information.
 
 
->From source
+From source
 -----------
 
-Download the ``alfred-workflow-X.X.X.zip`` file from the `GitHub releases`_ page
-and extract the ZIP to the root directory of your workflow (where
+Download the ``alfred-workflow-X.X.X.zip`` file from the `GitHub releases`_
+page and extract the ZIP to the root directory of your workflow (where
 ``info.plist`` is).
 
 Alternatively, you can download `the source code`_ from the `GitHub repository`_
